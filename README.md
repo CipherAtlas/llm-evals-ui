@@ -49,8 +49,8 @@ This repository contains an internal experimental web tool for testing prompts a
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/multi-model-prompt-tool.git
-   cd multi-model-prompt-tool
+   git clone https://github.com/CipherAtlas/llm-evals-ui.git
+   cd llm-evals-ui
    ```
 
 2. **Install Dependencies:**
@@ -64,10 +64,11 @@ This repository contains an internal experimental web tool for testing prompts a
    Create a file named `.env.local` in the root directory and add the following keys (replace with your actual values):
 
    ```env
-   NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
+   SUPABASE_URL=https://your-project.supabase.co
+   SUPABASE_ANON_KEY=your-supabase-anon-key
    OPENAI_API_KEY=your-openai-api-key
    GOOGLE_API_KEY=your-google-api-key   # if using Gemini API route
+   ANTHROPIC_API_KEY=your-anthropic-api-key  #not tested properly. may encounter some issues
    ```
 
 ### Supabase Setup
