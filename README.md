@@ -2,6 +2,10 @@
 
 This repository contains an internal experimental web tool for testing prompts across multiple LLM providers (e.g., OpenAI, Anthropic, Gemini). The tool features an infinite canvas with a node-based interface for creating and managing test flows.
 
+# Demo
+
+![App Diagram](./demo.png)
+
 ## Key Node Types
 
 - **Model Node:**  
